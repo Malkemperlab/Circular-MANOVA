@@ -27,6 +27,7 @@ manova_AIC_selection<-function(RESPONSE_Mat,MODEL_FULL,n=NULL) {
   
   #libraries that are required
   require(stringi)
+  require(effectsize)
  
    # define the variables to be tested (also explicitly add interaction terms) and 
   # determine the order of the terms and delete terms which will not be evaluted based on "n" input 
