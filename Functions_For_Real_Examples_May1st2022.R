@@ -86,7 +86,7 @@ manova_AIC_selection<-function(RESPONSE_Mat,MODEL_FULL,n=NULL) {
   #here if loop in case the best model is an intercept model!! 
   ########
   
-  if (BEST_MODEL=="RESPONSE_Mat[,]~ 1") #is this really the same ? See line above 
+  if (BEST_MODEL=="RESPONSE_Mat[,]~ 1") 
   {Effect_size_final<-"intercept model -> no effect sizes"
   intercept_model_<-paste("RESPONSE_Mat~ 1")
   MANOVA_summary_final<- summary(manova(as.formula(intercept_model_)),intercept = T) 
