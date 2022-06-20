@@ -10,7 +10,7 @@ library(stringr)
 library(stringi) #needed for manova_AIC_selection function 
 
 ####### load the functions used in this script (file needs to be in working directory)
-source("Functions_For_Real_Examples_Feb2022.R")
+source("Functions_For_Real_Examples_May1st2022.R")
 
 ##################
 #the pigeon example (package circular)
